@@ -1,0 +1,120 @@
+@font-face{src: url(../PT_Sans/PTSans-Bold.ttf); font-family: PTSans-Bold;}
+@font-face{src: url(../PT_Sans/PTSans-Regular.ttf); font-family: PTSans-Regular;}
+
+
+body
+{padding-top: 107px; font-family: PTSans-Bold; font-size: 16px; font-weight: 400; color: #898989;}
+
+.cpadding
+{padding-top: 100px; padding-bottom: 120px;}
+/* header_start */
+header
+{background-color: #FBDA19; padding: 20px 0;}
+.cnav
+{}
+.logo
+{}
+.menubar
+{}
+.menubar ul li a
+{font-size: 22px; font-weight: 700; color: #010101 !important; padding: 0 55px !important;}
+.menubar ul li:last-child a
+{padding-right: 0 !important;}
+.menubar ul li a:hover
+{color: #ffffff !important;}
+
+/* header_end */
+
+
+/* banner1_start */
+.slider
+{padding-bottom: 100px; background-color: #FBDA19;}
+.new_indicat
+{bottom: -80px;}
+.new_indicat [data-bs-target] 
+{width: 15px; height: 15px; border-radius: 50%;}
+.stext
+{margin-top: 50px;}
+.stext h1
+{font-size: 32px; font-weight: 700; color: #010101;}
+.stext h2
+{font-size: 20px; font-weight: 400; color: #313841; margin: 20px 0;}
+.stext p
+{color: #555555; margin-bottom: 35px;}
+.sicon
+{}
+.sicon ul li
+{margin-right: 30px !important;}
+.sicon ul li i
+{font-size: 42px; color: #010101; transition: .55s;}
+.sicon ul li i:hover
+{transform: scale(.8); color: white;}
+.simag
+{}
+.simag img
+{}
+/* banner1_end */
+
+/* banner2_start */
+.features
+{}
+.asb
+{}
+.asb_h1
+{font-size: 32px; font-weight: 700; color: #010101; margin-bottom: 15px;}
+.asb_p
+{font-size: 20px; color: #555555; line-height: 28px;}
+.fmb
+{margin-top: 70px;}
+.fbi
+{}
+.fbi i
+{font-size: 50px; color: #010101; margin-top: 2px; transition: .3s;}
+.fbi i:hover
+{transform: scale(.8);}
+.fbp h2
+{font-size: 22px; color: #010101; margin-bottom: 10px;}
+.fbp p
+{letter-spacing: 1px; color: #aeaeae;}
+/* banner2_end */
+
+/* contact_end */
+.contact
+{background-color: #010101;}
+.nh1color
+{color: #FBDA19;}
+.pcolor
+{color: #898989}
+.sform
+{margin-top: 35px; margin-bottom: 70px;}
+.eminput
+{width: 100%; height: 55px; padding: 15px 25px; font-family: PTSans-Bold; color: #898989;}
+.subbutton
+{width: 100%; height: 55px; background-color: #FBDA19; font-family: PTSans-Bold; font-size: 16px; font-weight: 700; color: #010101; text-transform:uppercase;}
+.subbutton:hover
+{background-color: white;}
+.ficon
+{}
+.ficon li
+{margin-right: 30px !important;}
+.ficon li:last-child
+{margin-right: 0 !important;}
+.siz
+{font-size: 35px !important;}
+.ficon li i
+{font-size: 42px; color: #FBDA19; transition: .3s;}
+.ficon li i:hover
+{color: white;}
+/* contact_end */
+/* footer_start */
+footer
+{background-color: #010101; padding-bottom: 135px;}
+.cnumber
+{}
+.cnumber address
+{color: white;}
+.mpds
+{}
+.mpds p a
+{color: white; text-decoration: none;}
+/* footer_end */
